@@ -1,0 +1,9 @@
+channels:
+- conda-forge
+dependencies:
+- python
+- notebook
+- pyiron
+- ase
+- cp2k
+- pycp2k
