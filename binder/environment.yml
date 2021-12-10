@@ -1,9 +1,9 @@
 channels:
 - conda-forge
 dependencies:
-- python
-- notebook
-- pyiron
-- ase
+- pyiron_atomistics
+- pyiron_contrib
 - cp2k
 - pycp2k
+- pip:
+  - git+https://github.com/pyiron/pyiron_contrib.git@cp2k
